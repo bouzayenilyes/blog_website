@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Blog - Discover Amazing Stories</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <h2>ModernBlog</h2>
+        </div>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#blog" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="nav-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1 class="hero-title">Discover Amazing Stories</h1>
+          <p class="hero-subtitle">
+            Explore thought-provoking articles, insights, and stories that
+            inspire and inform
+          </p>
+          <a href="#blog" class="cta-button">Start Reading</a>
+        </div>
+        <div class="hero-image">
+          <div class="floating-card">
+            <i class="fas fa-blog"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Posts -->
+    <section class="featured-posts" id="blog">
+      <div class="container">
+        <h2 class="section-title">Featured Articles</h2>
+        <div class="posts-grid">
+          <article class="post-card featured">
+            <div class="post-image">
+              <img
+                src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&h=400&fit=crop"
+                alt="Technology"
+              />
+              <div class="post-category">Technology</div>
+            </div>
+            <div class="post-content">
+              <h3 class="post-title">The Future of Web Development</h3>
+              <p class="post-excerpt">
+                Exploring the latest trends and technologies shaping the future
+                of web development...
+              </p>
+              <div class="post-meta">
+                <span class="post-date">Jan 15, 2024</span>
+                <span class="post-read-time">5 min read</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="post-card">
+            <div class="post-image">
+              <img
+                src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=400&fit=crop"
+                alt="Design"
+              />
+              <div class="post-category">Design</div>
+            </div>
+            <div class="post-content">
+              <h3 class="post-title">Modern UI/UX Design Principles</h3>
+              <p class="post-excerpt">
+                Learn the essential principles that make great user interfaces
+                and experiences...
+              </p>
+              <div class="post-meta">
+                <span class="post-date">Jan 12, 2024</span>
+                <span class="post-read-time">3 min read</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="post-card">
+            <div class="post-image">
+              <img
+                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=400&fit=crop"
+                alt="Business"
+              />
+              <div class="post-category">Business</div>
+            </div>
+            <div class="post-content">
+              <h3 class="post-title">Building Successful Startups</h3>
+              <p class="post-excerpt">
+                Key strategies and insights for building and scaling successful
+                startup companies...
+              </p>
+              <div class="post-meta">
+                <span class="post-date">Jan 10, 2024</span>
+                <span class="post-read-time">7 min read</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+    <!-- Recent Posts -->
+    <section class="recent-posts">
+        <div class="container">
+            <h2 class="section-title">Recent Posts</h2>
+            <div class="posts-list">
+                <article class="post-item">
+                    <div class="post-thumbnail">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=300&h=200&fit=crop" alt="Coding">
+                    </div>
+                    <div class="post-info">
+                        <div class="post-category">Programming</div>
+                        <h3 class="post-title">JavaScript Best Practices in 2024</h3>
+                        <p class="post-excerpt">Discover the latest JavaScript best practices and coding standards...</p>
+                        <div class="post-meta">
+                            <span class="post-date">Jan 8, 2024</span>
+                            <span class="post-read-time">4 min read</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post-item">
+                    <div class="post-thumbnail">
+                        <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=300&h=200&fit=crop" alt="AI">
+                    </div>
+                    <div class="post-info">
+                        <div class="post-category">AI</div>
+                        <h3 class="post-title">The Rise of Artificial Intelligence</h3>
+                        <p class="post-excerpt">How AI is transforming industries and changing the way we work...</p>
+                        <div class="post-meta">
+                            <span class="post-date">Jan 5, 2024</span>
+                            <span class="post-read-time">6 min read</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post-item">
+                    <div class="post-thumbnail">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=300&h=200&fit=crop" alt="Mobile">
+                    </div>
+                    <div class="post-info">
+                        <div class="post-category">Mobile</div>
+                        <h3 class="post-title">Mobile-First Design Strategy</h3>
+                        <p class="post-excerpt">Why mobile-first approach is crucial for modern web development...</p>
+                        <div class="post-meta">
+                            <span class="post-date">Jan 3, 2024</span>
+                            <span class="post-read-time">5 min read</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter and never miss our latest articles</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ModernBlog</h3>
+                    <p>Sharing amazing stories and insights with the world.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#">Technology</a></li>
+                        <li><a href="#">Design</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">Programming</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: hello@modernblog.com</p>
+                    <p>Phone: +1 (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ModernBlog. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="config.js"></script>
+    <script src="newsapi.js"></script>
+    <script src="script.js"></script>
+</body>
+</html></button>""
