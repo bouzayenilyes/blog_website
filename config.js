@@ -1,6 +1,6 @@
 // NewsAPI Configuration
 const CONFIG = {
-  NEWS_API_KEY: "put your api here",
+  NEWS_API_KEY: "4168016dcf9741cb846e458e1702f26b",
   NEWS_API_BASE_URL: "https://newsapi.org/v2",
   DEFAULT_COUNTRY: "us",
   DEFAULT_CATEGORY: "technology",
